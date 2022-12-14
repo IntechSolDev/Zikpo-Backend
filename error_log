@@ -1,0 +1,293 @@
+[09-Nov-2022 05:27:26 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 05:39:53 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:05:56 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:05:57 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:08:50 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:08:52 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:09:34 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:09:38 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:10:01 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:10:04 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:10:33 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:10:34 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:10:36 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:10:37 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:10:49 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:11:03 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:12:03 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:12:10 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[09-Nov-2022 06:12:28 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(444): include('/home/inteevql/...')
+#2 /home/inteevql/public_html/zikpo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/inteevql/public_html/zikpo/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/inteevql/public_html/zikpo/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[11-Nov-2022 10:15:10 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/inteevql/public_html/zikpo/insta.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/inteevql/public_html/zikpo/insta.php on line 14
+[11-Nov-2022 11:15:30 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/inteevql/public_html/zikpo/insta.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/inteevql/public_html/zikpo/insta.php on line 14
